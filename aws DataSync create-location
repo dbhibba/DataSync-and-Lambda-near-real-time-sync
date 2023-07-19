@@ -1,6 +1,6 @@
 aws DataSync create-location-s3 --s3-bucket-arn 'arn:aws:s3:::YourBucketName' \  
 	    --s3-config 'BucketAccessRoleArn=arn:aws:iam::account-id:role/DataSyncS3AccessRole' \  
-	    --subdirectory /your-folder  
+	    --subdirectory / your-folder-name  
 
 --Sample output:
 	{  
