@@ -2,7 +2,7 @@
     "Version": "2012-10-17",    
     "Statement": [    
         {    
-            "Sid": "Example permissions",    
+            "Sid": "Example Bucket policy",    
             "Effect": "Allow",    
             "Principal": {    
             "AWS": "arn:aws:iam::<Account B's ID>:root"    
